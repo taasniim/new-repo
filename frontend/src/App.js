@@ -1,12 +1,14 @@
+import React from "react";
+import Scene from "./Scene";
+import './index.css'
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+
+    <div>
+      <Scene />
     </div>
   );
-}
+};
 
-export default App;
+export default App;
